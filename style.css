@@ -111,3 +111,27 @@
 .heroimage img{
     width: 100%;
 }
+/* .floating-btn {
+  /* This locks the button to the screen layout */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+  /* Styling to match the look */
+  background-color: #8c3217; /* Rust/brown color */
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+  /* Keeps it above other page elements */
+  z-index: 1000; 
+} */
+
+/* Optional hover effect */
+/* .floating-btn:hover {
+  background-color: #722711;
+} */

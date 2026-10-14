@@ -111,27 +111,41 @@
 .heroimage img{
     width: 100%;
 }
-/* .floating-btn {
-  /* This locks the button to the screen layout */
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  
-  /* Styling to match the look */
-  background-color: #8c3217; /* Rust/brown color */
-  color: #ffffff;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px; /* Rounded corners */
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  
-  /* Keeps it above other page elements */
-  z-index: 1000; 
-} */
 
-/* Optional hover effect */
-/* .floating-btn:hover {
-  background-color: #722711;
-} */
+.craftsection{
+    background-color: #f5f0ea;
+    padding: 70px 0;
+
+
+}
+.crafthead{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.craftcont{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px
+   
+}
+ .craftitem{
+    width: 33.3%;
+    background-color: rgb(161, 67, 67);
+    padding: 40px;
+    border: 1px solid #ded4d6;
+    text-align: center;
+    align-items: center;
+ }
+ .craftitem span {
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: inline-block;
+ }
+ .craftitem h3{
+    margin-bottom: 20px;
+ }
+ .craftitem p{
+    font-size: 20px;
+    line-height: 1.7;
+ }

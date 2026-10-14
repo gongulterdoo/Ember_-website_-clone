@@ -46,7 +46,7 @@
      justify-content: space-between;
      gap: 30px;
 }
-.navbtn button{
+.navbtn button, .herobtn1, .herobtn2{
     padding: 20px 40px;
     background-color: #9a3412;
     color: white;
@@ -54,4 +54,60 @@
     border: none;
     border-radius: 3px;
 
+}
+.herotext1{
+    letter-spacing: 2px;
+    border: 1px solid #c98a3d;
+    padding: 10px 20px;
+    font-size: 11px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #c98a3d;
+    margin-bottom: 5px;
+
+
+}
+.herocont{
+   
+     padding: 60px 0;
+    background-color: #f5f0ea;
+}
+.herosec{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.herotext2{
+    font-size: 50px;
+    margin: 10px auto;
+}
+.herotext2 span{
+    color: #9a3412;
+    font-style: italic;
+}
+.herotext3{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #57534E;
+}
+.herobtns{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    gap: 20px;
+
+}
+.herobtn2{
+   background-color: #1c1917;
+}
+.heroimage{
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+}
+.heroimage img{
+    width: 100%;
 }
